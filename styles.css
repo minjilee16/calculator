@@ -1,0 +1,94 @@
+html, body {
+  font-family: 'Helvetica';
+  text-align: center;
+  background-color: #2AD1BB;
+}
+
+h1 {
+  color: white;
+  margin: 2em;
+}
+
+.calculator {
+  width: 450px;
+  height: 400px;
+  background-color: #FEF8C1;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-shadow: 3px 6px 3px #888888;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+span {
+  width: 2em;
+  padding: 1em;
+  margin-right: 15px;
+  border-radius: 10px;
+  background-color: #B086D5;
+  box-shadow: 0px 5px 0.5px #888888;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+  transition: 0.1s;
+}
+
+span:hover {
+  background-color: #CB477C;
+}
+span:active {
+  box-shadow: none;
+  top: 4;
+} 
+
+.last-span {
+  margin-right: 0;
+  background-color: #AEC3FB;
+}
+
+.last-span:hover {
+
+}
+
+.top {
+  margin-top: 10px;
+}
+
+.clear { 
+  background-color: #AEC3FB;
+}
+
+.clear:hover {
+  background-color: #FEAA01;
+}
+
+.result {
+  margin-top: 20px;
+  text-align: right;
+  width: 240px;
+  padding: 1em;
+  background-color: #FEC5D6;
+  box-shadow: inset 1px 5px 2px #888888;
+  color: #FEC5D6;
+  margin-right: 0px;
+  cursor: default;
+}
+
+.result:hover {
+  background-color:  #FEC5D6;
+}
+
+.result:active {
+  box-shadow: inset 1px 5px 2px #888888;
+}
+
+.equal {
+  background-color: #FAA7D1;
+}
+
+.equal:hover {
+  background-color: #FEAA01;
+}
