@@ -39,6 +39,7 @@ span {
 span:hover {
   background-color: #CB477C;
 }
+
 span:active {
   box-shadow: none;
   top: 4;
