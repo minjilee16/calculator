@@ -1,4 +1,4 @@
-# calculator
+# Calculator
 
 This is UI calculator built with HTML, CSS, and Javascript.
 
